@@ -1,6 +1,6 @@
 {
   "name": "iam-mongodb",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "An IAM adapter for MongoDB.",
   "main": "./dist/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "eslint . && tslint -c tslint.json 'lib/**/*.ts' '__tests__/**/*.ts'",
     "format": "prettier --write \"src/**/*.js\" \"__tests__/**/*.js\"",
     "pretest": "npm run build && npm run lint",
-    "test": "nyc --reporter=html --reporter=text mocha",
+    "test": "nyc --reporter=html --reporter=text mocha ./__tests__/**/*.test.js",
     "prepublishOnly": "npm test",
     "preversion": "npm run lint",
     "release:major": "release-it major",
