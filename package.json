@@ -54,10 +54,10 @@
     "eslint-plugin-import": "^2.20.1",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.8",
-    "mocha": "^7.0.1",
+    "mocha": "^10.2.0",
     "nyc": "^15.0.0",
     "prettier": "^1.19.1",
-    "release-it": "^12.6.1",
+    "release-it": "^15.6.0",
     "rimraf": "^3.0.2",
     "tslint": "^6.0.0",
     "typescript": "^3.8.2"
